@@ -1,0 +1,17 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "ZenQuotes Card",
+    "location": "crm.record.tab",
+    "fetch": {
+      "targetFunction": "zenQuotes-card-handler",
+      "objectTypes": [
+        {
+          "name": "contacts",
+          "propertiesToSend": ["firstname"],
+          "actions": []
+        }
+      ]
+    }
+  }
+}

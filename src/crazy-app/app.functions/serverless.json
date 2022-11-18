@@ -1,0 +1,14 @@
+{
+  "runtime": "nodejs12.x",
+  "version": "1.0",
+  "appFunctions": {
+    "alerts-card-handler": {
+      "file": "alerts-card-handler.js",
+      "secrets": []
+    },
+    "wacky-card-handler": {
+      "file": "wacky-card-handler.js",
+      "secrets": []
+    }
+  }
+}

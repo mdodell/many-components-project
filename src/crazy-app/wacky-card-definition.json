@@ -1,0 +1,17 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Wacky Card",
+    "location": "crm.record.tab",
+    "fetch": {
+      "targetFunction": "wacky-card-handler",
+      "objectTypes": [
+        {
+          "name": "contacts",
+          "propertiesToSend": ["firstname"],
+          "actions": []
+        }
+      ]
+    }
+  }
+}

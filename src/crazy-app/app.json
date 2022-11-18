@@ -1,0 +1,21 @@
+{
+  "name": "Crazy App",
+  "description": "An example private app that contains a single CRM card extension.",
+  "scopes": [
+    "crm.objects.contacts.read",
+    "crm.objects.contacts.write"
+  ],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "./alerts-card-definition.json"
+        },
+        {
+          "file": "./wacky-card-definition.json"
+        }
+      ]
+    }
+  }
+}

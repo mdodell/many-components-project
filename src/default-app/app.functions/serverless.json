@@ -1,0 +1,15 @@
+{
+  "runtime": "nodejs12.x",
+  "version": "1.0",
+  "endpoints": {
+    "hello-world": {
+      "file": "helloWorld.js"
+    }
+  },
+  "appFunctions": {
+    "default-card-handler": {
+      "file": "default-card-handler.js",
+      "secrets": []
+    }
+  }
+}

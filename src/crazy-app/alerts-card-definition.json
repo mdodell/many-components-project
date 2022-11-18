@@ -1,0 +1,17 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Alerts Card",
+    "location": "crm.record.tab",
+    "fetch": {
+      "targetFunction": "alerts-card-handler",
+      "objectTypes": [
+        {
+          "name": "contacts",
+          "propertiesToSend": ["firstname"],
+          "actions": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Another App",
+  "description": "An example private app.",
+  "scopes": [
+    "crm.objects.deals.read"
+  ],
+  "public": false,
+  "extensions": {
+  }
+}
